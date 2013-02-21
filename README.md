@@ -43,8 +43,10 @@ Usage
 			}
 		}
 	}
+	
+Prep ViewMachine commands
+-------
 
-	// Prep ViewMachine commands
 	package com.example.mvc.controls.commands
 	{
 		import org.robotlegs.mvcs.SignalCommand;
@@ -75,7 +77,8 @@ Usage
 		}
 	}
 
-	// This is the command where we bind your state views to ViewMachine
+This is the command where we bind your state views to ViewMachine
+-------
 	package com.example.mvc.controls.commands
 	{
 		import org.robotlegs.mvcs.Command;
@@ -113,7 +116,8 @@ Usage
 		}
 	}
 
-	// StartupCommand
+StartupCommand
+-------
 	package com.example.mvc.controls.commands
 	{
 		import org.robotlegs.mvcs.Command;
@@ -141,7 +145,8 @@ Usage
 	}
 
 
-	// InitApplication
+InitApplication
+-------
 	package com.example.mvc.controls.commands
 	{	
 		import org.robotlegs.mvcs.Command;
@@ -188,7 +193,9 @@ Usage
 	}
 
 
-	// And a example of a state mediator
+
+And a example of a state mediator
+-------
 	package com.example.mvc.views.mediators.states
 	{
 		import flash.display.Sprite;
