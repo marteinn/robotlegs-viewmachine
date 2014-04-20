@@ -1,4 +1,4 @@
-robotlegs-viewmachine
+Robotlegs-ViewMachine
 =====================
 
 ![image](https://raw.githubusercontent.com/marteinn/robotlegs-viewmachine/master/logo.png)
